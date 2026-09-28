@@ -1,0 +1,5 @@
+# .github/CODEOWNERS -- reading-assignment-ui (frontend)
+# Format: path  @org/team
+
+src/app/login/           @pau-sen-401/Team-A
+src/app/core/demo-auth.service.ts  @pau-sen-401/Team-A
