@@ -17,10 +17,6 @@ jobs:
         with:
           node-version: '22.12.0'
           cache: npm
-      - name: Enable Corepack
-        run: corepack enable
-      - name: Prepare Corepack
-        run: corepack prepare npm@11.6.2 --activate
       - name: Install dependencies
         run: npm ci
       - name: Run tests
